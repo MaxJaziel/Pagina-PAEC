@@ -1,0 +1,715 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f8ff;
+    color: #333;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    background: #4fa3ff;
+    color: white;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+    height: 300px;
+    background-image: url('https://via.placeholder.com/1200x400/87CEFA/FFFFFF?text=Inclusion+Escolar');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* Presentación */
+.presentacion {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Tarjetas generales */
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Beneficios */
+.beneficios {
+    padding: 40px;
+    background: #e9f4ff;
+    text-align: center;
+}
+
+/* Principios */
+.principios {
+    padding: 40px;
+    background: #dff2ff;
+}
+
+.principios ul {
+    text-align: left;
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* Actividades */
+.actividades {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Galería */
+.galeria {
+    padding: 40px;
+    text-align: center;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.imagenes img {
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* FORMULARIO */
+.formulario {
+    padding: 40px;
+    background: #e7f3ff;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+button {
+    padding: 10px;
+    background: #4fa3ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1f6fd1;
+}
+
+/* Footer */
+.footer {
+    background: #4fa3ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* VIDEO */
+.video-section {
+    padding: 40px;
+    text-align: center;
+    background: #f0f7ff;
+}
+
+.video-section h2 {
+    margin-bottom: 20px;
+    color: #1f6fd1;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe {
+    border-radius: 12px;
+    max-width: 100%;
+}
+/* VIDEO LOCAL */
+.video-local {
+    width: 80%;
+    max-width: 750px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    background: #000;
+    outline: none;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+/* ENLACES RELACIONADOS */
+.enlaces-relacionados {
+    padding: 50px 20px;
+    background: #eaf4ff;
+    text-align: center;
+}
+
+.enlaces-relacionados h2 {
+    color: #1f6fd1;
+    margin-bottom: 10px;
+}
+
+.enlaces-relacionados p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+.enlaces-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.enlace-card {
+    background: white;
+    border-radius: 12px;
+    width: 280px;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.enlace-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.enlace-card h3 {
+    font-size: 18px;
+    color: #1f6fd1;
+}
+
+.enlace-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+/* TARJETAS DE INFORMACIÓN — NUEVO DISEÑO */
+.tarjetas-info {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.tarjeta-segmento {
+    background: #ffffff;
+    width: 85%;
+    max-width: 900px;
+    padding: 40px 45px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    border-left: 10px solid #4fa3ff;
+    animation: fadeIn 0.8s ease-out;
+}
+
+.tarjeta-segmento h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #1f6fd1;
+}
+
+.tarjeta-segmento p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #444;
+}
+
+/* Iconos */
+.icono {
+    font-size: 40px;
+    color: #4fa3ff;
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* Animación */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(25px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+/* NAV FIJO */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* SCROLL SUAVE */
+html {
+    scroll-behavior: smooth;
+}
+
+/* TARJETAS INTERACTIVAS */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+/* BOTÓN DEL BANNER */
+.banner button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background: #4fa3ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.banner button:hover {
+    background: #1f6fd1;
+    transform: scale(1.05);
+}
+
+/* ENLACES DEL NAV MEJORADOS */
+.nav a {
+    position: relative;
+}
+
+.nav a::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: 0.3s;
+}
+
+.nav a:hover::after {
+    width: 100%;
+}
+/* ANIMACIONES DE ENTRADA */
+section {
+    animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+/* INTERACCIÓN CON IMÁGENES DE GALERÍA */
+.imagenes img {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.imagenes img:hover {
+    transform: scale(1.06);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+/* TARJETAS DE ENLACES */
+.enlace-card {
+    transition: 0.3s;
+}
+
+.enlace-card:hover {
+    transform: translateY(-6px) scale(1.03);
+}
+/* Mejor contraste */
+body {
+    margin: 0;
+    background: #f2f8ff;
+    color: #222;
+}
+
+/* Enfoque visible para teclado */
+a:focus, button:focus, input:focus, textarea:focus {
+    outline: 3px solid #ffcc00;
+    outline-offset: 2px;
+}
+
+/* Validación visual */
+input:invalid, textarea:invalid {
+    border: 2px solid #1f6fd1;
+}
+
+/* Mensaje de éxito */
+.oculto { display: none; }
+#mensaje-exito {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}
+
+/* Botón volver arriba */
+#btn-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #4fa3ff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 12px;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+#btn-top:hover {
+    background: #1f6fd1;
+}
+/* Testimonios */
+.testimonios {
+    padding: 40px;
+    background: #f9fcff;
+    text-align: center;
+}
+
+.testimonios h2 {
+    color: #1f6fd1;
+    margin-bottom: 30px;
+}
+
+.testimonios .card {
+    font-style: italic;
+    color: #444;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.testimonios .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+/* FAQ */
+.faq {
+    padding: 50px 20px;
+    background: #eaf4ff;
+    text-align: center;
+}
+
+.faq h2 {
+    color: #1f6fd1;
+    margin-bottom: 25px;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background: white;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 15px;
+    background: #4fa3ff;
+    color: white;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+    background: #f9fcff;
+}
+
+/* Animación al abrir */
+.faq-answer.show {
+    display: block;
+    animation: fadeIn 0.3s ease-in;
+}
+/* Presentación mejorada */
+.presentacion {
+    padding: 60px 40px;
+    background: #f9fcff;
+}
+
+.presentacion-contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap; /* para que se adapte en pantallas pequeñas */
+}
+
+.presentacion-texto {
+    flex: 1;
+    min-width: 300px;
+}
+
+.presentacion-texto h2 {
+    color: #1f6fd1;
+    margin-bottom: 20px;
+}
+
+.presentacion-texto p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.presentacion-imagen {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.presentacion-imagen img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.presentacion-imagen img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 22px rgba(0,0,0,0.3);
+}
+/* Misión Visión Objetivos */
+.mvo {
+    padding: 60px 20px;
+    background: #f0f7ff;
+    text-align: center;
+}
+
+.mvo h2 {
+    color: #1f6fd1;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.mvo-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.mvo-card {
+    background: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.15);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.mvo-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.mvo-card h3 {
+    color: #1f6fd1;
+    margin-bottom: 10px;
+}
+/* Footer profesional */
+.footer {
+    background: #4fa3ff;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-col {
+    max-width: 250px;
+    text-align: left;
+}
+
+.footer-col h3 {
+    margin-bottom: 15px;
+}
+
+.footer-col a {
+    display: block;
+    color: white;
+    margin-bottom: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-col a:hover {
+    text-decoration: underline;
+}
+
+.redes a {
+    font-size: 28px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-copy {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+/* Testimonios mejorados */
+.testimonios-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.testimonio-card {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    transition: 0.3s;
+    text-align: center;
+    animation: fadeIn 0.8s ease-out;
+}
+
+.testimonio-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.testimonio-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+/* Secciones de Tipos de Aprendizaje y Autismo */
+.aprendizaje-section,
+.autismo-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e9f5ff;
+}
+
+.aprendizaje-section h2,
+.autismo-section h2 {
+    font-size: 2.2em;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.aprendizaje-section p,
+.autismo-section p {
+    max-width: 800px;
+    margin: 0 auto 35px auto;
+    font-size: 1.1em;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform .3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    color: #0056b3;
+    margin-top: 10px;
+}
